@@ -16,3 +16,14 @@ MAKE A BACKUP BEFORE YOU EDIT, WE DO NOT WANT TO LOSE ANYTHING.
                 licenses[] = { { "PriorPMC", false } };
                 level[] = { "", "", -1 };
             };
+
+
+
+
+    class pmc_group_prior {
+        variable = "Prior PMC";
+        displayName = "STR_License_Boat";
+        price = 1000;
+        illegal = false;
+        side = "civ";
+    };
