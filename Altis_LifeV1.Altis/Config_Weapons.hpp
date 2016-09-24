@@ -51,16 +51,36 @@ class WeaponShops {
             { "optic_ACO_grn", "", 3500, 350 },
             { "optic_Holosight", "", 3600, 275 },
             { "optic_Hamr", "", 7500, -1 },
-            { "acc_flashlight", "", 1000, 100 }
+            { "acc_flashlight", "", 1000, 100 },
+            { "optic_ERCO_blk_F", "ERCO(Black)", 15000, -1 },
+            { "optic_ERCO_snd_F", "ERCO(Sand)", 15000, -1 },
+            { "arifle_Mk20_F", "Mk20 5.56 mm(Camo)", 30000, -1 },
+            { "muzzle_snds_M", "5.56 mm Sound Suppressor ", 150000, -1 },
+            { "muzzle_snds_L", "9mm Suppressor", 20000, -1 },
+            { "bipod_01_F_blk", "Bipod-Black(Nato)", 20000, -1 },
+            { "bipod_02_F_blk", "Bipod-black(Csat)", 20000, -1 }
+        	
+        	
+        	
         };
         mags[] = {
-			{ "200Rnd_556x45_Box_F", "Lim 200rnd", 5000 },
+	    { "200Rnd_556x45_Box_F", "Lim 200rnd", 5000 },
             { "30Rnd_556x45_Stanag", "", 300 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x54_Mag", "", 500 },
-			{ "30Rnd_545x39_Mag_F", "", 300, 100, { "", "", -1 } },
-			{ "20Rnd_762x51_Mag", "", 2000, 100, { "", "", -1 } },
-            { "20Rnd_556x45_UW_mag", "", 125 }
+            { "30Rnd_545x39_Mag_F", "", 300, 100, { "", "", -1 } },
+            { "20Rnd_762x51_Mag", "", 2000, 100, { "", "", -1 } },
+            { "30Rnd_762x39_Mag_F", "Ak12 Mag", 5000 },
+            { "30Rnd_762x39_Mag_F", "AkM Mag", 5000 },
+            { "30Rnd_545x39_Mag_F", "AkS Mag", 5000 },
+            { "200Rnd_556x45_Box_F", "Lim 200rnd", 15000 },
+            { "30Rnd_762x39_Mag_Green_F", "Lim 200rnd(Green)", 15000},
+            { "30Rnd_9x21_Mag_SMG_02", "30rnd 9mm Mag", 1000 },
+            { "30Rnd_556x45_Stanag", "5.56 30rnd Stanag", 5000 },
+            { "30Rnd_556x45_Stanag_green", "5.56 30rnd Stanag(Green)", 5000 },
+            { "9Rnd_45ACP_Mag", "9rn 45ACP mag", 275 },
+            { "10Rnd_127x54_Mag", "9rn 45ACP mag", 275 },
+            { "20Rnd_762x51_Mag", "762x51", 5000 }
         };
     };
     class gang {
